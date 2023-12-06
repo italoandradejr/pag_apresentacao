@@ -1,0 +1,97 @@
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    margin: 0;
+    padding: 10px;
+    background: url('https://caosplanejado.com/wp-content/uploads/2019/07/chicago.png') center/cover fixed;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.header-container {
+    background: linear-gradient(to bottom, #3498db, #2980b9);
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    border-bottom: 2px solid #2c3e50; /* Adicionei uma borda inferior para separação */
+}
+
+.header-container h1 {
+    margin: 0;
+    font-size: 1.5em; /* Ajustei o tamanho da fonte */
+}
+
+.header-container p {
+    margin: 10px 0 0;
+    font-size: 1.1em; /* Ajustei o tamanho da fonte */
+}
+
+.main-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.about-section,
+.services-section {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px 0;
+    width: 100%;
+    max-width: 800px;
+}
+
+.about-section h2,
+.services-section h2 {
+    color: #3498db;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    list-style-type: disc;
+    margin-bottom: 10px;
+}
+
+.footer-container {
+    background-color: #2c3e50;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    width: 100%;
+    margin-top: auto;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+}
+
+
+@media screen and (max-width: 767px) {
+    .main-section {
+        margin: 10px 0;
+    }
+
+    .about-section,
+    .services-section {
+        margin: 10px 0;
+    }
+}
